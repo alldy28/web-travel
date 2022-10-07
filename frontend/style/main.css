@@ -31,4 +31,11 @@ body {
 .btn-login:hover {
   background-color: #0e2b6e;
   color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

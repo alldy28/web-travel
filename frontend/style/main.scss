@@ -4,7 +4,7 @@ body {
     color: #071c4d;
 }
 
-
+//navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -45,3 +45,12 @@ body {
         color: #fff;
         }
     }
+
+
+//Header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url('../images/header-background.jpg');
+  background-size: cover;
+}
