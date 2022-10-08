@@ -98,3 +98,65 @@ p {
     font-weight: lighter;
 }
 }
+
+
+//populer
+.section-populer {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-populer-heading {
+        margin-top: 150px;
+
+        h2,p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.section-populer-content {
+    .section-populer-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+        font-size: 18px;
+        color: #fff;
+        }
+
+        .travel-location {
+        font-size: 26px;
+        color: #fff;
+        }
+
+        .travel-button {
+        .btn-travel-detail {
+            background-color: #ff9e53;
+            color: #fff;
+
+            &:hover {
+                background-color: #e9914e;
+            color: #fff;
+            }
+        }
+        }
+    }
+}
