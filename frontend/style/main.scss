@@ -1,5 +1,5 @@
 body {
-    background-color: #e4e6eb;
+    background-color: #fff;
     font-family: 'Assistant', sans-serif;
     font-weight: 500px;
     color: #071c4d;
@@ -218,6 +218,7 @@ p {
             font-weight: 200px;
             font-size: 26px;
             color: #6e6e6e;
+            min-height: 160px;
         }
 
         .trip-to {
@@ -230,5 +231,31 @@ p {
             margin-left: -20px;
             margin-right: -20px;
         }
+    }
+    .btn-get-started {
+        background-color: #ff9e53;
+            color: #fff;
+    
+            &:hover {
+                background-color: #e9914e;
+            color: #fff;
+            }
+      }
+}
+
+.btn-need-help {
+    background-color: #f2F2F2;
+        color: #C3C3C3;
+
+        &:hover {
+            background-color: #FAFAFA;
+        color: #C3C3C3;
+        }
+  }
+
+
+.section-footer {
+    a {
+        color: #071c4d;
     }
 }
